@@ -1,35 +1,34 @@
-
-
-
-  @import url('https://fonts.googleapis.com/css2?family=Denk+One&family=Farsan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Denk+One&family=Farsan&display=swap');
 
 
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Farsan", sans-serif ; ;
+    font-family: "Farsan", sans-serif;
+    ;
 }
 
-body{
-    width: 100vw;
-    background: rgb(175,175,175);
-background: linear-gradient(270deg, rgba(175,175,175,1) 0%, rgba(250,250,250,1) 11%, rgba(250,250,250,1) 100%);
+body {
+    width: 100%;
+    background: rgb(175, 175, 175);
+    background: linear-gradient(270deg, rgba(175, 175, 175, 1) 0%, rgba(250, 250, 250, 1) 11%, rgba(250, 250, 250, 1) 100%);
     padding: 10px;
-   
+
 }
 
-.nav{
+
+.nav {
     height: 10vh;
     background-color: rgb(250, 250, 250);
     box-shadow: 0px 3px 8px 1px grey;
     display: none;
-   
+
 }
 
-.nav__ul{
+.nav__ul {
     display: flex;
     gap: 4px;
     width: 100vw;
@@ -38,47 +37,123 @@ background: linear-gradient(270deg, rgba(175,175,175,1) 0%, rgba(250,250,250,1) 
     visibility: hidden;
 }
 
-.presentation{
+/* SECTION PRESENTATION */
+
+.presentation {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
-.presentation__hi{
+.presentation__hi {
     padding-top: 20%;
-    font-family: "Denk One", sans-serif ;
+    font-family: "Denk One", sans-serif;
 }
 
-h1{
+h1 {
     padding-top: 2%;
-    color: rgb(255,101,132);
-    font-size: 40px;
-    font-family: "Denk One", sans-serif ;
+    color: rgb(255, 101, 132);
+    font-size: 3em;
+    font-family: "Denk One", sans-serif;
     text-shadow: 2px 2px 7px #fff;
 }
 
-.presentation__text{
+.presentation__text {
     padding-top: 5%;
     align-self: center;
     width: 50%;
-    font-size: 15px;
-    text-shadow: 2px 
+    font-size: 1em;
+    text-shadow: 2px
 }
 
-button{
+button {
+    width: 200px;
+    height: 50px;
     margin-top: 10%;
     margin-bottom: 20%;
-   align-self: center;
-   padding-left: 20px;
-   padding-right: 20px;
-    background-color: rgb(246,198,234);
+    align-self: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(246, 198, 234);
     border: none;
-    border-radius: 5px;
-    box-shadow:  0px 3px 8px 1px grey;
+    border-radius: 40px;
+    box-shadow: 0px 3px 8px 1px grey;
+    text-decoration: none;
+    font-size: 1.2em;
+    
 }
 
-.presentation img{
-    width: 100vw;
+button:hover {
+    background-color: rgb(255, 101, 132);
+    transform: scale(1.2);
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Denk One", sans-serif;
+}
+
+.presentation img {
+    width: calc(100% + 20px);
+    height: auto;
     margin-left: -10px;
 }
 
+/* SECTION SKILLS */
+
+.div-skills,
+.div-projects,
+.div-contact {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 20px;
+    justify-content: center;
+    }
+
+h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(255, 101, 132);
+    text-align: center;
+    font-size: 3em;
+}
+
+.skills__text{
+    margin-bottom: 60px;
+    text-align: center;
+  font-size: 1em;
+}
+
+.skill-grid,
+.grid-proyects {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.skill-grid__item{
+    min-width: 150px;
+    max-width: 150px;
+    flex: 1;
+    height: 150px;
+    background-color: rgb(230, 230, 230);
+    box-shadow: 0px 3px 8px 1px grey ;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.skill-grid__item:hover{
+ border: 1px solid black;
+}
+
+.skill-grid-item__img {
+    width: 100px;
+    margin-top: 10px;
+    
+}
+
+.skill-grid-item__title{
+    font-size: 1.2em;
+    font-family: "Denk One", sans-serif;
+}
