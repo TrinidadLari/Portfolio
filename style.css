@@ -13,10 +13,20 @@
 
 body {
     width: 100%;
-    background: rgb(175, 175, 175);
-    background: linear-gradient(270deg, rgba(175, 175, 175, 1) 0%, rgba(250, 250, 250, 1) 11%, rgba(250, 250, 250, 1) 100%);
+    /* background: rgb(175, 175, 175);
+    background: linear-gradient(270deg, rgba(175, 175, 175, 1) 0%, rgba(250, 250, 250, 1) 11%, rgba(250, 250, 250, 1) 100%); */
     padding: 10px;
 
+    background: linear-gradient(to right, rgba(175, 175, 175, 0.8), rgba(175, 175, 175, 0.8)), url('/assets/img/constelaciones-body.png');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* NAVBAR  */
@@ -64,15 +74,16 @@ body {
     text-align: center;
 }
 
-.presentation__hi {
+.presentation__hi{
     padding-top: 20%;
     font-family: "Denk One", sans-serif;
+    font-size: 1.6rem;
 }
 
 h1 {
     padding-top: 2%;
     color: rgb(255, 101, 132);
-    font-size: 3rem;
+    font-size: 3.2rem;
     font-family: "Denk One", sans-serif;
     text-shadow: 2px 2px 7px #fff;
 }
@@ -80,7 +91,7 @@ h1 {
 .presentation__text {
     padding-top: 5%;
     width: 50%;
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin: auto;
 }
 
@@ -88,7 +99,7 @@ button {
     width: 200px;
     height: 50px;
     margin-top: 10%;
-    margin-bottom: 20%;
+    margin-bottom: 16%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
@@ -98,7 +109,7 @@ button {
     border-radius: 40px;
     box-shadow: 0px 3px 8px 1px grey;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 
 }
 
@@ -135,8 +146,7 @@ a {
 }
 
 h2 {
-    margin-top: 30px;
-    margin-bottom: 30px;
+     margin-bottom: 30px;
     color: rgb(255, 101, 132);
     text-align: center;
     font-size: 3rem;
@@ -146,7 +156,7 @@ h2 {
 .skills__text {
     margin-bottom: 60px;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 .skill-grid,
@@ -202,7 +212,7 @@ blockquote {
 
 .blockquote__p {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 30px;
@@ -226,6 +236,7 @@ blockquote {
 .grid-proyects-item__img {
     width: 100%;
 }
+
 
 .grid-proyects a {
     display: flex;
@@ -265,7 +276,7 @@ blockquote {
 .projects__text {
     margin-bottom: 60px;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 
@@ -273,9 +284,6 @@ blockquote {
 /* Social-media */
 
 
-.contact {
-    margin-top: -100px;
-}
 
 .social-media {
     margin-bottom: 50px;
@@ -305,7 +313,7 @@ blockquote {
 .contact__text {
     margin-bottom: 60px;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 .social-media__link img {
