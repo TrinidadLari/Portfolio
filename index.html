@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <!-- NAVBAR -->
     <header>
         <nav class="nav">
             <ul class="nav__ul">
@@ -23,13 +24,23 @@
         </nav>
     </header>
     <main>
+
+        <!-- /* SECTION PRESENTATION */ -->
+
         <section class="presentation" id="presentation">
-            <h3 class="presentation__hi">¡Hola! Soy</h3>
-            <h1>Trinidad Lari</h1>
-            <p class="presentation__text">Desarrolladora, Bachatera y amante de la naturaleza</p>
-            <button class="presentation__button"><a href="#skills">LO QUE HAGO</a></button>
-            <img src="/assets/img/undraw_different_love_a3rg.png" alt="Imagen Presentación Trinidad Lari">
+            <div class="presentation__name">
+                <h3 class="presentation__hi">¡Hola! Soy</h3>
+                <h1>Trinidad Lari</h1>
+                <p class="presentation__text">Desarrolladora, Bachatera y amante de la naturaleza</p>
+                <button class="presentation__button"><a href="#skills">LO QUE HAGO</a></button>
+            </div>
+            <div class="presentation__img">
+                <img src="/assets/img/undraw_different_love_a3rg-removebg-preview.png"
+                    alt="Imagen Presentación Trinidad Lari">
+            </div>
         </section>
+
+        <!-- /* SECTION SKILLS */ -->
 
         <section class="skills" id="skills">
             <div class="div-skills">
@@ -66,67 +77,194 @@
             </div>
         </section>
         <section>
-        <blockquote>
-            <img src="" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt est quas commodi earum esse porro
-                repellendus, veniam numquam dolore, a voluptates labore! Enim, quasi id sint sed necessitatibus aperiam
-                vero? <cite>Juan Perez</cite></p>
-        </blockquote>
-    </section>
+
+            <!-- /* QUOTE  */ -->
+
+            <blockquote>
+                <img class="blockquote__img" src="/assets/svg/quote-right-svgrepo-com.svg" alt="Cita">
+                <p class="blockquote__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt est quas commodi
+                    earum esse porro
+                    repellendus, veniam numquam dolore, a voluptates labore! Enim, quasi id sint sed necessitatibus
+                    aperiam
+                    vero? </p>
+                <cite class="blockquote__cite">Juan Perez</cite>
+            </blockquote>
+
+
+            <!-- /* SECTION PROYECTS */ -->
+
+        </section>
         <section class="projects" id="projects">
             <div class="div-projects">
                 <h2>Mis Proyectos</h2>
                 <p class="projects__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda doloribus
                     vitae laboriosam.</p>
                 <div class="grid-proyects">
-                    <a href="" class="grid-proyects__item">
-                        <img src="" alt="" class="grid-proyects-item__img">
-                        <p class="grid-proyects-item__p"></p>
-                    </a>
-                    <a href="" class="grid-proyects__item">
-                        <img src="" alt="" class="grid-proyects-item__img">
-                        <p class="grid-proyects-item__p"></p>
-                    </a>
-                    <a href="" class="grid-proyects__item">
-                        <img src="" alt="" class="grid-proyects-item__img">
-                        <p class="grid-proyects-item__p"></p>
-                    </a>
-                    <a href="" class="grid-proyects__item">
-                        <img src="" alt="" class="grid-proyects-item__img">
-                        <p class="grid-proyects-item__p"></p>
-                    </a>
-                    <a href="" class="grid-proyects__item">
-                        <img src="" alt="" class="grid-proyects-item__img">
-                        <p class="grill-proyects-item__p"></p>
-                    </a>
-                    <a href="" class="grid-proyects__item">
-                        <img src="" alt="" class="grid-proyects-item__img">
-                        <p class="grid-proyects-item__p"></p>
-                    </a>
-                    <a href="" class="grid-proyects__item">
-                        <img src="" alt="" class="grid-proyects-item__img">
-                        <p class="grid-proyects-item__p"></p>
-                    </a>
+                    <div class="grid-proyects__item">
+                        <a href="" class="grid-proyects__a">
+                            <img src="/assets/img/Portfolio-img.png" alt="Portfolio" class="grid-proyects-item__img">
+
+                            <p class="grid-proyects-item__p">Portfolio</p>
+                        </a>
+                    </div>
+                    <div class="grid-proyects__item">
+                        <a href="" class="grid-proyects__a">
+                            <img src="/assets/svg/memes-img.svg" alt="Generador de memes"
+                                class="grid-proyects-item__img">
+                            <p class="grid-proyects-item__p">Generador de memes</p>
+                        </a>
+                    </div>
+                    <div class="grid-proyects__item">
+                        <a href="" class="grid-proyects__a">
+                            <img src="/assets/svg/match3-img.svg" alt="Match 3"
+                                class="grid-proyects-item__img grid-proyects-item__img--top">
+                            <p class="grid-proyects-item__p">Match 3</p>
+                        </a>
+                    </div>
+                    <div class="grid-proyects__item">
+                        <a href="" class="grid-proyects__a">
+                            <img src="/assets/svg/controladoDeGastos-img.svg" alt="Controlador de Gastos"
+                                class="grid-proyects-item__img grid-proyects-item__img--top">
+                            <p class="grid-proyects-item__p">
+                                Controlador de gastos</p>
+                        </a>
+                    </div>
+                    <div class="grid-proyects__item">
+                        <a href="" class="grid-proyects__a">
+                            <img src="/assets/svg/reuniones-Img.svg" alt="Administrador de reuniones"
+                                class="grid-proyects-item__img grid-proyects-item__img--top">
+                            <p class="grid-proyects-item__p">Administrador de reuniones</p>
+                        </a>
+                    </div>
+                    <div class="grid-proyects__item">
+                        <a href="" class="grid-proyects__a">
+                            <img src="/assets/svg/todoApp-img.svg" alt="Todo App"
+                                class="grid-proyects-item__img grid-proyects-item__img--top">
+                            <p class="grid-proyects-item__p">Todo app</p>
+                        </a>
+                    </div>
+                    <div class="grid-proyects__item">
+                        <a href="" class="grid-proyects__a">
+                            <img src="/assets/svg/buscadorDePelis-img.svg" alt="Buscador de películas"
+                                class="grid-proyects-item__img">
+                            <p class="grid-proyects-item__p">Buscador de películas</p>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
+
+        <!--  CONTACT -->
+
+
         <section class="contact" id="contact">
             <div class="div-contact">
                 <h2>Contactame</h2>
                 <p class="contact__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda doloribus
                     vitae
                     laboriosam.</p>
+                <div class="social-media">
+                    <div class="social-media__link">
+                        <a href="https://wa.me/+5493413394356" target="_blank"><img 
+                                src="/assets/svg/whatsapp-128-svgrepo-com.svg" alt="Logo WhatsApp">
+                            <p class="social-media-link__p">WhatsApp</p>
+                        </a>
+                    </div>
+                    <div class="social-media__link">
+                        <a href="https://github.com/TrinidadLari" target="_blank"><img
+                                src="/assets/svg/github-142-svgrepo-com.svg" alt="Logo GitHub">
+                            <p class="social-media-link__p">TrinidadLari</p>
+                        </a>
+                    </div>
+                    <div class="social-media__link">
+                        <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"
+                            target="_blank"><img src="/assets/svg/linkedin-round-svgrepo-com.svg" alt="Logo Linkedin">
+                            <p class="social-media-link__p">TrinidadLari</p>
+                        </a>
+                    </div>
+                    <div class="social-media__link">
+                        <a href="mailto:trinidadlari@gmail.com"><img src="/assets/svg/arroba-sign-svgrepo-com.svg"
+                                alt="Logo e-mail">
+                            <p class="social-media-link__p">trinidadlari@gmail.com</p>
+                        </a>
+                    </div>
+                </div>
+
+
+
+
+
                 <h2>Escribime</h2>
                 <p class="contact__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda doloribus
                     vitae
                     laboriosam.</p>
+                <div class="form">
+                    <div class="form__name">
+                        <label for="nombre">Nombre*</label>
+                        <input class="form__input" type="text" type="text" id="name" name="name" placeholder="Ejemplo: Diana"
+                            required>
+                    </div>
+                    <div class="form__surname">
+                        <label for="Apellido">Apellido*</label>
+                        <input class="form__input" type="text" id="surname" name="surname" placeholder="Ejemplo: Prince" required>
+                    </div>
+                    <div class="form__email">
+                        <label  for="email">e-mail*</label>
+                        <input class="form__input" type="email" id="e-mail"
+                        name="e-mail"
+                        placeholder="Ejemplo dianaprince@mail.com"
+                        required>
+                    </div>
+                    <div class="form__message">
+                    <label for="mensaje">Mensaje*</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Escriba un mensaje aquí" required></textarea>
+                    </div>
+                    <div class="form__submit">
+                        <input type="submit" value="Enviar">
+                    </div>
+
+                </div>
+
             </div>
         </section>
 
     </main>
-    <footer>
 
-    </footer>
+
+<!-- FOOTER -->
+
+
+    <footer>
+        <div class="social-media-footer">
+            <div class="social-media-footer__link ">
+                <a href="https://wa.me/+5493413394356" target="_blank"><img 
+                        src="/assets/svg/whatsapp-128-svgrepo-com.svg" alt="Logo WhatsApp">
+                    
+                </a>
+            </div>
+            <div class="social-media-footer__link">
+                <a href="https://github.com/TrinidadLari" target="_blank"><img
+                        src="/assets/svg/github-142-svgrepo-com.svg" alt="Logo GitHub">
+                    
+                </a>
+            </div>
+            <div class="social-media-footer__link">
+                <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"
+                    target="_blank"><img src="/assets/svg/linkedin-round-svgrepo-com.svg" alt="Logo Linkedin">
+                   
+                </a>
+            </div>
+            <div class="social-media-footer__link">
+                <a href="mailto:trinidadlari@gmail.com"><img src="/assets/svg/arroba-sign-svgrepo-com.svg"
+                        alt="Logo e-mail">
+              
+                </a>
+            </div>
+        </div>
+        <div class="made_love">
+        <p class="made_love__p">Hecho con amor 🤍 por Trini</p>
+   </div> 
+</footer>
 </body>
 
 </html>
