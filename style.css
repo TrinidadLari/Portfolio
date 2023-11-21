@@ -12,7 +12,7 @@
 }
 
 body {
-    width: 100vw;
+    /* width: 100vw; */
     padding: 10px;
     background: linear-gradient(to right, rgba(175, 175, 175, 0.8), rgba(175, 175, 175, 0.8)), url('/assets/img/constelaciones-body.png');
     background-size: cover;
