@@ -97,6 +97,8 @@ body {
     font-size: 1.6rem;
 }
 
+
+
 h1 {
     padding-top: 15px;
     color: rgb(255, 101, 132);
@@ -636,13 +638,37 @@ footer {
 
 }
 
+.nav-footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 40px;
+}
+
+
+.nav-footer__ul {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.nav-footer__ul__li {
+    list-style: none;
+    font-size: 0.8rem;
+    padding-block: 5px;
+    color: rgb(85, 26, 139);
+}
+
+.nav-footer__ul__li:hover{
+    text-shadow: 3px 1px 5px #fff, 3px 1px 5px #fff, 3px 1px 5px #fff, 3px 1px 5px #fff;
+}
+
 .social-media-footer {
     display: flex;
     justify-content: center;
     gap: 30px;
-    padding-top: 40px;
-    padding-bottom: 20px;
-}
+    padding-block: 40px 20px;
+ }
 
 .social-media-footer a{
   display: block;
@@ -743,6 +769,14 @@ footer {
 
 
 @media (min-width: 970px) {
+    .nav-footer__ul__li {
+        font-size: 1.5rem;
+      }
+
+      .nav-footer__ul {
+        gap: 60px;
+      }
+
     .social-media-footer__link img {
         width: 60px;
         margin: 30px;
