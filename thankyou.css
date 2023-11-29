@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Denk+One&family=Farsan&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Farsan", sans-serif;
+    overflow: hidden;
+    ;
+}
+
+:root {
+    --color1: rgb(85, 26, 139);
+    --color2: rgb(255, 101, 132);
+    --color3: rgb(247, 221, 240);
+}
+
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+ }
+
+
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+a {
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+    background-color: var(--color1);
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0px 3px 8px 1px grey;
+    text-decoration: none;
+    font-family: "Denk One", sans-serif;
+    font-size: 1.3rem;
+    color: var(--color3);
+}
+
+a:hover {
+    background-color: var(--color1);
+    box-shadow: 0px 3px 8px 1px #fff;
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+    color: #fff;
+}
+
+@media (min-width: 970px) {
+    h1 {
+        font-size: 6rem;
+        padding-block: 20px 20px;
+    }
+
+    h2 {
+        font-size: 4rem;
+    }
+
+    img {
+        width: 200px;
+    }
+}

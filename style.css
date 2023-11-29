@@ -11,8 +11,14 @@
     ;
 }
 
+:root {
+    --color1: rgb(85, 26, 139);  
+    --color2: rgb(255, 101, 132);  
+    --color3:  rgb(246, 198, 234);  
+  }
+  
+
 body {
-    width: 100%;
     padding: 10px;
     background: linear-gradient(to right, rgba(175, 175, 175, 0.8), rgba(175, 175, 175, 0.8)), url('/assets/img/constelaciones-body.png');
     background-size: cover;
@@ -59,12 +65,12 @@ body {
     list-style: none;
     font-size: 1.5rem;
     padding: 5px 15px 5px 15px;
-    color: rgb(85, 26, 139);
+    color: var(--color1);
 }
 
 .nav__ul__li:hover,
 .nav__ul__li:active {
-    background-color: rgb(246, 198, 234);
+    background-color: var(--color3);
     border-radius: 40px;
     box-shadow: 0px 3px 8px 1px grey;
 }
@@ -101,7 +107,7 @@ body {
 
 h1 {
     padding-top: 15px;
-    color: rgb(255, 101, 132);
+    color: var(--color2);
     font-size: 3.2rem;
     font-family: "Denk One", sans-serif;
     text-shadow: 2px 2px 7px #fff;
@@ -118,7 +124,7 @@ h1 {
     width: 200px;
     height: 50px;
     padding: 5px 30px 5px 30px;
-    background-color: rgb(246, 198, 234);
+    background-color: var(--color3);
     border: none;
     border-radius: 40px;
     box-shadow: 0px 3px 8px 1px grey;
@@ -128,7 +134,7 @@ h1 {
 }
 
 .presentation__button:hover {
-    background-color: rgb(85, 26, 139);
+    background-color: var(--color1);
     box-shadow: 0px 3px 8px 1px #fff;
     transform: scale(1.1);
     transition-duration: 0.3s;
@@ -200,7 +206,7 @@ a {
 
 h2 {
     padding-bottom: 30px;
-    color: rgb(255, 101, 132);
+    color: var(--color2);
     text-align: center;
     font-size: 3rem;
     font-family: "Denk One", sans-serif;
@@ -294,7 +300,7 @@ h2 {
 blockquote {
     display: flex;
     flex-direction: column;
-    background-color: rgb(255, 101, 132);
+    background-color: var(--color2);
     width: calc(100% + 20px);
     height: auto;
     margin-left: -10px;
@@ -426,7 +432,7 @@ blockquote {
 }
 
 .social-media a:hover {
-    background-color: rgb(85, 26, 139);
+    background-color: var(--color1);
     box-shadow: 0px 3px 8px 1px grey;
 }
 
@@ -434,7 +440,7 @@ blockquote {
 
 .social-media__link a p {
     text-decoration: none;
-    color: rgb(85, 26, 139);
+    color: var(--color1);
     font-size: 1.2rem;
     font-family: "Denk One", sans-serif;
 }
@@ -449,7 +455,7 @@ blockquote {
 
 
 .social-media__link:hover .social-media-link__p {
-    color: rgb(246, 198, 234);
+    color: var(--color3);
 }
 
 
@@ -473,7 +479,7 @@ blockquote {
     height: 30px;
     background: url(assets/svg/whatsapp-128-svgrepo-com--white.svg) center center no-repeat;
     background-size: 28px 28px;
-    background-color: rgb(85, 26, 139);
+    background-color: var(--color1);
     border-radius: 50px;
 }
 
@@ -553,7 +559,7 @@ blockquote {
 .form__message label {
     font-size: 1.15rem;
     font-family: "Denk One", sans-serif;
-    color: rgb(85, 26, 139);
+    color: var(--color1);
     padding-bottom: 5px;
 }
 
@@ -585,7 +591,7 @@ textarea,
     padding: 7px 30px 7px 30px;
     font-size: 1.15rem;
     font-family: "Denk One", sans-serif;
-    color: rgb(85, 26, 139);
+    color: var(--color1);
 }
 
 input:valid:focus,
@@ -631,7 +637,7 @@ textarea:valid {
 /* FOOTER */
 
 footer {
-    background-color: rgb(255, 101, 132);
+    background-color: var(--color2);
     width: calc(100% + 20px);
     height: auto;
     margin-left: -10px;
@@ -656,7 +662,7 @@ footer {
     list-style: none;
     font-size: 0.8rem;
     padding-block: 5px;
-    color: rgb(85, 26, 139);
+    color: var(--color1);
 }
 
 .nav-footer__ul__li:hover{
