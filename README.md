@@ -44,9 +44,14 @@ Información de contacto para que las personas puedan comunicarse conmigo.
 El portfolio está actualmente en desarrollo activo. Estoy trabajando constantemente para mejorar y agregar más contenido.
 
 ## Licencia
-Este portfolio es propiedad de **Trinidad Lari** y está bajo su nombre. Todos los derechos reservados.
-❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️
-[Mi Portfolio][def]
+Este portfolio es propiedad de **Trinidad Lari** y está bajo su nombre. Todos los derechos reservados.<br>
+[Mi Portfolio][def] <br>
+
+<p align="center">
+❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️ 
+</p><br>
+
+
 
 ![Hecho con amor](./assets/img/footer.png "Hecho con amor")
 
