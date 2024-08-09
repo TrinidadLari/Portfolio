@@ -9,7 +9,7 @@ const enviarFormulario = (event) => {
     
     if (nombre && apellido && email && mensaje) {
        
-        const mensajeWhatsApp = `https://wa.me/5493413394356?text=Hola! Mi nombre es ${nombre} ${apellido}. Mi correo es ${email}. ${mensaje}`;
+        const mensajeWhatsApp = `https://wa.me/5493413394356?text=Hola! Mi nombre es ${nombre} ${apellido}. Mi correo es ${email}. Y tengo este mensaje para vos: ${mensaje}`;
         
         
         window.open(mensajeWhatsApp, '_blank');
