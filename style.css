@@ -14,7 +14,8 @@
 :root {
     --color1: rgb(85, 26, 139);  
     --color2: rgb(255, 101, 132);  
-    --color3:  rgb(246, 198, 234);  
+    --color3:  rgb(246, 198, 234);
+    --shadow1: 0px 0px 1px 0px grey;  
   }
   
 
@@ -42,7 +43,7 @@ body {
 .nav {
     height: 10vh;
     background-color: rgb(250, 250, 250);
-    box-shadow: 0px 3px 8px 1px grey;
+    box-shadow: var(--shadow1);
     display: none;
     position: fixed;
     top: 0;
@@ -72,7 +73,7 @@ body {
 .nav__ul__li:active {
     background-color: var(--color3);
     border-radius: 40px;
-    box-shadow: 0px 3px 8px 1px grey;
+    box-shadow: var(--shadow1);
 }
 
 
@@ -110,7 +111,7 @@ h1 {
     color: var(--color2);
     font-size: 3.2rem;
     font-family: "Denk One", sans-serif;
-    text-shadow: 2px 2px 7px #fff;
+    text-shadow: 0px 0px 2px #fff;
 }
 
 .presentation__text {
@@ -127,7 +128,7 @@ h1 {
     background-color: var(--color3);
     border: none;
     border-radius: 40px;
-    box-shadow: 0px 3px 8px 1px grey;
+    box-shadow: var(--shadow1);
     text-decoration: none;
     font-family: "Denk One", sans-serif;
     font-size: 1.3rem;
@@ -156,7 +157,7 @@ a {
 
 @media (min-width: 380px) {
     h1 {
-        text-shadow: 2px 2px 7px grey;
+        text-shadow: var(--shadow1);
     }
 
 }
@@ -237,13 +238,13 @@ h2 {
 
 .skill-grid__item {
     background-color: rgb(230, 230, 230);
-    box-shadow: 0px 3px 8px 1px grey;
+    box-shadow: var(--shadow1);
     border-radius: 5px;
     text-align: center;
     width: 150px;
     height: 150px;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 
@@ -355,7 +356,7 @@ blockquote {
     min-width: 300px;
     height: 300px;
     background-color: rgb(230, 230, 230);
-    box-shadow: 0px 3px 8px 1px grey;
+    box-shadow: var(--shadow1);
     border-radius: 5px;
     text-align: center;
 
@@ -433,7 +434,7 @@ blockquote {
 
 .social-media a:hover {
     background-color: var(--color1);
-    box-shadow: 0px 3px 8px 1px grey;
+    box-shadow: var(--shadow1);
 }
 
 
@@ -538,7 +539,7 @@ blockquote {
     padding-inline: 20px;
     background: radial-gradient(circle, rgba(250, 250, 250, 1) 25%, rgba(226, 226, 226, 1) 94%);
     border-radius: 20px;
-    box-shadow: 0px 3px 8px 1px grey;
+    box-shadow: var(--shadow1);
     width: 100%;
 
 }
@@ -567,7 +568,7 @@ textarea,
 .form__input {
     border-radius: 20px;
     background-color: rgb(230, 230, 230);
-    box-shadow: 0px 3px 8px 1px grey;
+    box-shadow: var(--shadow1);
     border: none;
 }
 
@@ -581,7 +582,7 @@ textarea,
 .form__submit input {
     border-radius: 20px;
     background-color: rgb(230, 230, 230);
-    box-shadow: 0px 3px 8px 1px grey;
+    box-shadow: var(--shadow1);
     border: none;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -596,22 +597,32 @@ textarea,
 
 input:valid:focus,
 textarea:valid:focus {
-    box-shadow: 0px 0px 15px #88c459;
+    box-shadow: 0px 0px 5px #88c459;
 }
 
 input:invalid:not(:placeholder-shown):focus,
 textarea:invalid:not(:placeholder-shown):focus {
-    box-shadow: 0px 0px 15px #f5414f;
+    box-shadow: 0px 0px 5px #f5414f;
 }
 
 input:invalid:not(:placeholder-shown),
 textarea:invalid:not(:placeholder-shown) {
-    border: 2px solid #f5414f;
+    border: 1px solid #f5414f;
 }
 
 input:valid,
 textarea:valid {
-    border: 2px solid #88c459;
+    border: 1px solid #88c459;
+}
+
+.form__submit{
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+
+.clearBtn, .sendBtn{
+  cursor: pointer;
 }
 
 

@@ -1,4 +1,4 @@
-const enviarFormulario = (event) => {
+const sendForm = (event) => {
     event.preventDefault(); 
 
     const nombre = document.getElementById('name').value;
@@ -13,10 +13,21 @@ const enviarFormulario = (event) => {
         
         
         window.open(mensajeWhatsApp, '_blank');
+
     } else {
         alert('Por favor, completa todos los campos antes de enviar.');
     }
 };
 
+const clearForm = () => {
+    document.getElementById('name').value = '';
+    document.getElementById('surname').value = '';
+    document.getElementById('e-mail').value = '';
+    document.getElementById('message').value = '';
+};
 
-document.querySelector('.form').addEventListener('submit', enviarFormulario);
+
+document.querySelector('.form').addEventListener('submit', sendForm);
+document.getElementById('clearBtn').addEventListener('click', clearForm);
+
+
