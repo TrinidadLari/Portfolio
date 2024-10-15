@@ -17,9 +17,22 @@ Una lista de las habilidades y tecnologías que poseo.
 - HTML
 - CSS
 - SASS
+- TAILWIND CSS
 - JAVASCRIPT
 - REACT
+- REACT ROUTER
+- MATERIAL UI
+- CHAKRA
+- BOOTSTRAP
+- SWIPER
+- FIREBASE
+- AXIOS
+- ZUSTAND
+- VSC
 - GIT
+- GITHUB
+- FIGMA
+- ILLUSTRATOR
 
 ![Mis Habilidades](./assets/img/skills.png "Mis Habilidades")
 
@@ -27,11 +40,14 @@ Una lista de las habilidades y tecnologías que poseo.
 Descripciones y enlaces a los proyectos que he realizado. 
 - Portfolio
 - Generador de memes
-- Match 3
 - Controlador de gastos
-- Administrador de reuniones
-- Todo App
-- Buscador de películas
+- Encantopía
+- Dados
+- List me
+- E-commerce
+- Fixo (Prototipo)
+- MarketPlace (Prototipo)
+- Marketplace
 
 ![Mis proyectos](./assets/img/proyects.png "Mis proyectos")
 
